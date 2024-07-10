@@ -1,0 +1,29 @@
+.container_tabela {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.tabela {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    height: 48px;
+    background-color: #34ace0;
+}
+
+.body, tr, td {
+    height: 36px;
+}
+
+.bgLight {
+    background-color: lightblue;
+}
